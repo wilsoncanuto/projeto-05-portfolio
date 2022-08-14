@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Roboto+Mono&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  
+
+  background: url(assets/img/numero2.gif) no-repeat bottom center scroll;
+  background-position: 30% 45%;
+  background-color: rgb(47, 44, 44);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+main{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+
+  flex-direction: column;
+
+  height: 100vh;
+
+  color: white;
+
+}
+
+
+div.perfil{
+  width: 9.8em;
+  height: 9.8em;
+
+  display: flex;
+  margin-top:-1.8px;
+
+  justify-content: center;
+  align-items: center;
+
+  background: #9e9ba3;
+
+  border-radius: 100%;
+}
+
+  div.perfil img#fotoDePerfil{
+    width: 9em;
+    height: 9em;
+
+    border-radius: 100%;
+  }
+    img#abra{
+      display: none;
+      width: 9em;
+      height: 9em;
+    }
+
+
+h1{
+  text-align: center;
+  margin: 0.5rem;
+}
+  a.perfil{
+    margin-bottom: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+
+div ul li, a{
+  list-style: none;
+  text-decoration: none;
+  color: rgb(243, 243, 243);
+  font-family: 'Roboto Condensed', sans-serif;
+  
+  
+  display: flex;
+  align-items: center;
+
+  font-size: 1.1em;
+}
+
+  div ul a{
+    min-width: 18rem;
+    text-transform: uppercase;
+
+    justify-content: center;
+ 
+    margin: 0.5rem 15px;
+    padding: 1rem;
+
+    border-radius: 0.5em;
+
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255,0.1);
+    backdrop-filter: blur(5px);
+  }
+  
+    div ul a img{
+      position: fixed;
+      left: 12.5%;        
+    }
+
+      #replit img{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 5px;
+      }
+
+        footer{
+          font-family: 'roboto mono', monospace;
+          font-size: 0.9rem;
+          margin-top: 3vh;
+
+          opacity: 0.8;;
+        }
